@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C38B60B265C08F300F7F494 /* AttentionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38B60A265C08F300F7F494 /* AttentionImage.swift */; };
+		4C38B60D265C0CEA00F7F494 /* AddGraphicsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38B60C265C0CEA00F7F494 /* AddGraphicsButton.swift */; };
 		4CCFE213265AED65004DEEC7 /* Pompom_bartekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFE212265AED65004DEEC7 /* Pompom_bartekApp.swift */; };
 		4CCFE215265AED65004DEEC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFE214265AED65004DEEC7 /* ContentView.swift */; };
 		4CCFE217265AED66004DEEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFE216265AED66004DEEC7 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C38B60A265C08F300F7F494 /* AttentionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttentionImage.swift; sourceTree = "<group>"; };
+		4C38B60C265C0CEA00F7F494 /* AddGraphicsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGraphicsButton.swift; sourceTree = "<group>"; };
 		4CCFE20F265AED65004DEEC7 /* Pompom-bartek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pompom-bartek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCFE212265AED65004DEEC7 /* Pompom_bartekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pompom_bartekApp.swift; sourceTree = "<group>"; };
 		4CCFE214265AED65004DEEC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +58,9 @@
 			children = (
 				4CCFE212265AED65004DEEC7 /* Pompom_bartekApp.swift */,
 				4CCFE214265AED65004DEEC7 /* ContentView.swift */,
+				4C38B60C265C0CEA00F7F494 /* AddGraphicsButton.swift */,
 				4CCFE216265AED66004DEEC7 /* Assets.xcassets */,
+				4C38B60A265C08F300F7F494 /* AttentionImage.swift */,
 				4CCFE21B265AED66004DEEC7 /* Info.plist */,
 				4CCFE218265AED66004DEEC7 /* Preview Content */,
 			);
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C38B60D265C0CEA00F7F494 /* AddGraphicsButton.swift in Sources */,
 				4CCFE215265AED65004DEEC7 /* ContentView.swift in Sources */,
 				4CCFE213265AED65004DEEC7 /* Pompom_bartekApp.swift in Sources */,
+				4C38B60B265C08F300F7F494 /* AttentionImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
