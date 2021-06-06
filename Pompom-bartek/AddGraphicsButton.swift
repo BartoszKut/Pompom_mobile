@@ -8,26 +8,33 @@
 import SwiftUI
 
 struct AddGraphicButton: View {
-    @State var addAttentionImage = false
+    
+    
+    @State var quantityOfObjects = 0
+    @State var images: [UIImage] = []
         
     var body: some View {
-        VStack{
+        VStack {
+            ZStack {
+                ForEach(0..<quantityOfObjects, id: \.self) { number in
+                    AttentionImage(attentionImage: Image("attention"))
+                }
+            }
+            
             Spacer()
+            Divider()
+            
             HStack{
                 Button(action: {
-                    self.addAttentionImage = true
+                    quantityOfObjects += 1
                 }) {
                     Image(systemName: "plus")
                         .resizable()
-                        .frame(width: 40.0, height: 40, alignment: .leading)
-                        .edgesIgnoringSafeArea(.all)
+                        .frame(width: 40.0, height: 40)
                 }
                 .padding()
+                
                 Spacer()
-              
-                if addAttentionImage == true {
-                    AttentionImage(attentionImage: Image("attention"))
-                }
             }
         }
     }
